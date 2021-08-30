@@ -1,0 +1,13 @@
+query  movies($first:Int!,$skip:Int!,$order:[MovieOrder!]){
+    movies(first:$first,skip:$skip,order:$order){
+        edges{
+            node{
+                id
+                title
+                releaseDate
+                seasons
+                createdAt
+            }
+        }
+    }
+}
