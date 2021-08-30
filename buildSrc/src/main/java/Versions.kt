@@ -8,7 +8,7 @@ object Versions {
     const val MIN_SDK = 21
 
     const val ANDROID_GRADLE_PLUGIN = "4.2.1"
-    const val KOTLIN = "1.5.10"
+    const val KOTLIN = "1.5.30"
     const val NAVIGATION = "2.3.5"
 
     const val KOIN = "2.0.1"

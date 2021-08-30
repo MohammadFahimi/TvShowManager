@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TvShowManager</string>
+    <string name="seasons">Seasons</string>
+    <string name="add_new_tv_show">Add new tv show</string>
+    <string name="show_tv_shows">Show list of added tv shows</string>
+    <string name="release_date">Release Date</string>
+    <string name="err_enter_seaon">Please enter seasons</string>
+    <string name="err_enter_title">Please enter tv show title</string>
+    <string name="save_tv_show">Save tv show</string>
 </resources>

@@ -59,6 +59,7 @@ android {
 
 dependencies {
 
+    api(project(":data"))
     implementation(Libs.KOTLINX_COROUTINE_ANDROID)
 
     implementation(Libs.KOIN_ANDROID)
