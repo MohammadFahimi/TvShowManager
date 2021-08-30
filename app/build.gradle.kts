@@ -1,7 +1,7 @@
 plugins {
     id(BuildsPlugin.androidApplication)
     id(BuildsPlugin.kotlinAndroid)
-    id("com.apollographql.apollo").version("2.5.9")
+    id(BuildsPlugin.apollo).version(Versions.apollo)
     kotlin(BuildsPlugin.kapt)
     id(BuildsPlugin.navigationSageArg)
 }
@@ -73,8 +73,7 @@ dependencies {
 
     implementation(Libs.NAVIGATION)
     implementation(Libs.NAVIGATION_UI)
-    implementation(Libs.APOLLO_RUNTIME)
-    implementation(Libs.APOLLO_COROUTINE)
+
 }
 apollo {
     generateKotlinModels.set(true)

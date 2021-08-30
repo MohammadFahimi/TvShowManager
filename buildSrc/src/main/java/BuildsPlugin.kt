@@ -4,9 +4,9 @@ object BuildsPlugin {
     const val androidLibrary = "com.android.library"
     const val javaLibrary = "java-library"
     const val kotlin = "kotlin"
+    const val apollo = "com.apollographql.apollo"
     const val kapt = "kapt"
     const val jvm = "jvm"
-//    const val navigationSageArg = "androidx.navigation.safeargs.kotlin"
     const val navigationSageArg = "androidx.navigation.safeargs"
 
     const val androidBuildTool = "com.android.tools.build:gradle:${Versions.ANDROID_GRADLE_PLUGIN}"
