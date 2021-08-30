@@ -2,4 +2,16 @@
 <resources>
     <dimen name="padding_normal">16dp</dimen>
     <dimen name="margin_normal">16dp</dimen>
+    <!--TextViw Size-->
+    <dimen name="text_size_1">12sp</dimen>
+    <dimen name="text_size_2">13sp</dimen>
+    <dimen name="text_size_3">14sp</dimen>
+    <dimen name="text_size_4">15sp</dimen>
+    <dimen name="text_size_5">16sp</dimen>
+    <dimen name="text_size_6">17sp</dimen>
+    <dimen name="text_size_7">18sp</dimen>
+    <dimen name="text_size_8">19sp</dimen>
+    <dimen name="text_size_9">20sp</dimen>
+    <dimen name="text_size_10">21sp</dimen>
+
 </resources>

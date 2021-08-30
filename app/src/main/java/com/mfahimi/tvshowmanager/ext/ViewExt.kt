@@ -1,6 +1,7 @@
 package com.mfahimi.tvshowmanager.ext
 
 import android.view.View
+import androidx.annotation.StringRes
 
 
 fun View.visible() {
@@ -22,3 +23,4 @@ fun View.enable() {
 fun View.disable() {
     isEnabled = false
 }
+fun View.string(@StringRes id: Int, vararg formatArgs: Any): String = context.resources.getString(id, formatArgs)

@@ -11,5 +11,6 @@ class HomeFragment : BaseFragment<FragmentHomeBinding>() {
 
     override fun initViews(view: View, savedInstanceState: Bundle?) = with(binding) {
         btnAddNewShow.setOnClickListener { findNavController().navigate(R.id.toAddNewTvShow)}
+        btnShowMovies.setOnClickListener { findNavController().navigate(R.id.toTvShows)}
     }
 }

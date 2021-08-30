@@ -9,4 +9,6 @@
     <string name="save_tv_show">Save tv show</string>
     <string name="tvShow">Tv Show</string>
     <string name="tmpl_tvshow_added_success">%1s added successfully</string>
+    <string name="msg_release_date">Release Date:&#160;&#160;</string>
+    <string name="msg_seasons">Seasons:&#160;&#160;</string>
 </resources>
