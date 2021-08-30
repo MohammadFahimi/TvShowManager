@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextAppearance">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="TextAppearance.Title">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/text_size_6</item>
+    </style>
+
+    <style name="TextAppearance.Normal">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/text_size_5</item>
+    </style>
+
+
+    <style name="TextAppearance.Small">
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textSize">@dimen/text_size_3</item>
+    </style>
+
+
+
+
+
+</resources>
