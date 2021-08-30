@@ -22,6 +22,8 @@ object Libs {
     const val APOLLO_RUNTIME = "com.apollographql.apollo:apollo-runtime:${Versions.apollo}"
     const val APOLLO_COROUTINE = "com.apollographql.apollo:apollo-coroutines-support:${Versions.apollo}"
 
+    const val OKHTTP_LOGGING_INTERCEPTOR = "com.squareup.okhttp3:logging-interceptor:${Versions.okhttpInterceptor}"
+
 
     const val FRAGMENT_KTX = "androidx.fragment:fragment-ktx:${Versions.fragment}"
     const val FRAGMENT_TEST = "androidx.fragment:fragment-testing:${Versions.fragment}"

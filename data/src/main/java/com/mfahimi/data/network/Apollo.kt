@@ -5,21 +5,22 @@ import com.apollographql.apollo.ApolloClient
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import okhttp3.Response
+import okhttp3.logging.HttpLoggingInterceptor
 
 
 fun apolloClient(): ApolloClient {
 
     val okHttpClient = OkHttpClient.Builder()
         .addInterceptor(AuthorizationInterceptor())
+        .addInterceptor(HttpLoggingInterceptor().apply {
+            level = HttpLoggingInterceptor.Level.BODY
+        })
         .build()
 
-    val instance: ApolloClient = ApolloClient.builder()
+    return ApolloClient.builder()
         .serverUrl("https://tv-show-manager.combyne.com/graphql")
         .okHttpClient(okHttpClient)
-
         .build()
-
-    return instance
 }
 
 private class AuthorizationInterceptor() : Interceptor {

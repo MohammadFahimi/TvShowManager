@@ -16,6 +16,7 @@ dependencies {
     implementation(Libs.KOIN)
     implementation(Libs.APOLLO_RUNTIME)
     implementation(Libs.APOLLO_COROUTINE)
+    implementation(Libs.OKHTTP_LOGGING_INTERCEPTOR)
 }
 apollo {
     generateKotlinModels.set(true)
