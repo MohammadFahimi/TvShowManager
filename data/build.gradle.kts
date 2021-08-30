@@ -13,6 +13,7 @@ java {
 dependencies {
     api(project(":domain"))
 
+    implementation(Libs.KOIN)
     implementation(Libs.APOLLO_RUNTIME)
     implementation(Libs.APOLLO_COROUTINE)
 }

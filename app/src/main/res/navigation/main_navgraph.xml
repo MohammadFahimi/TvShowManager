@@ -5,10 +5,21 @@
     android:id="@+id/main_navgraph"
     app:startDestination="@id/homeFragment">
 
-
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.mfahimi.tvshowmanager.ui.fragment.HomeFragment"
-        tools:layout="@layout/fragment_home"
-        android:label="HomeFragment" />
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/toAddNewTvShow"
+            app:destination="@id/addNewTvShowFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addNewTvShowFragment"
+        android:name="com.mfahimi.tvshowmanager.ui.fragment.AddNewTvShowFragment"
+        android:label="AddNewTvShowFragment"
+        tools:layout="@layout/fragment_add_new_tv_show" />
+
+
 </navigation>

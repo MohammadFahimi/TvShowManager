@@ -7,4 +7,6 @@
     <string name="err_enter_seaon">Please enter seasons</string>
     <string name="err_enter_title">Please enter tv show title</string>
     <string name="save_tv_show">Save tv show</string>
+    <string name="tvShow">Tv Show</string>
+    <string name="tmpl_tvshow_added_success">%1s added successfully</string>
 </resources>
