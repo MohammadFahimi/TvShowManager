@@ -13,5 +13,6 @@
     <dimen name="text_size_8">19sp</dimen>
     <dimen name="text_size_9">20sp</dimen>
     <dimen name="text_size_10">21sp</dimen>
+    <dimen name="margin_large">32dp</dimen>
 
 </resources>

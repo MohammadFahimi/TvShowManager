@@ -8,7 +8,7 @@
         android:id="@+id/_img_cover"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintDimensionRatio="3:1.8"
+        app:layout_constraintDimensionRatio="3:1.59"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -16,12 +16,12 @@
 
     <Button
         android:id="@+id/btn_add_new_show"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/margin_normal"
         android:text="@string/add_new_tv_show"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/btn_show_movies"
+        app:layout_constraintStart_toStartOf="@id/btn_show_movies"
         app:layout_constraintTop_toBottomOf="@+id/_img_cover" />
 
     <Button
